@@ -5,15 +5,21 @@
 
 ### Introduction 
 Le Continuous Delivery, selon Martin Fowler, est une discipline du génie logiciel où vous construisez une application de telle manière qu'elle puisse être envoyée en production à tout moment. Cette façon de travailler de manière agile est très prisée par le mouvement DevOps dont la philosophie est : « You build it, you run it ».
-### Technology Stack
-Component         | Technology | Language
----               | ---        |  --- 
-Projet            | [Symfony 4](https://symfony.com/4) | PHP
-Build Tools| [Composer](https://getcomposer.org) | PHP
-Artefact Packaging| [Docker](https://www.docker.com/) | ?
-Continuous-Integration            | [Jenkins 2](https://jenkins.io) | JAVA
-Continuous-Deployement            | [Xl Deploy](https://xebialabs.com/products/xl-deploy) | ?
 
+
+### Technology Stack
+Component               | Technology                                              | Language
+---                     | ---                                                     |  --- 
+Projet                  | [Symfony 4](https://symfony.com/4)                      | PHP
+Versionning             | [Github Entreprise](https://enterprise.github.com/home) | RUBY
+Build Tools             | [Composer](https://getcomposer.org)                     | PHP
+Artefact Packaging      | [DockerFile](https://www.docker.com/)                   | ?
+Continuous-Integration  | [Jenkins 2](https://jenkins.io)                         | JAVA
+Continuous-Deployement  | [Xl Deploy](https://xebialabs.com/products/xl-deploy)   | ?
+
+### Environnements
+Local | Intégration | Debug | Production
+---   | ---         | ---   | ---
 
 ### Build Symfony Project Image 
 ```
